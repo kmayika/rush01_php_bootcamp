@@ -5,7 +5,7 @@
 // define('DB_NAME', 'db_rush01');
 
 //attempts a connection
-$connect = mysqli_connect('localhost','root','1911993k','db_rush01');
+$connect = mysqli_connect('localhost','root','root','db_rush01');
 
 if ($connect === false)
 {
